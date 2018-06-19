@@ -5,9 +5,9 @@ import browserify from "browserify";
 import source from "vinyl-source-stream";
 
 gulp.task('default', () => {
-	return browserify("src/app.js")
+	return browserify("src/app.js.es6")
 			.transform("babelify")
 			.bundle()
 			.pipe(source('bundle.js'))
-			.pipe(dest('dist'));
+			.pipe(gulp.dest('dist'));
 });
