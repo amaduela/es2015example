@@ -1,0 +1,26 @@
+{
+  "name": "es2015example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaduela/es2015example.git"
+  },
+  "keywords": [
+    "es2015",
+    "babel"
+  ],
+  "author": "Anselmo Maduela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amaduela/es2015example/issues"
+  },
+  "homepage": "https://github.com/amaduela/es2015example#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
